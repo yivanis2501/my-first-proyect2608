@@ -44,4 +44,19 @@ header nav ul {
 .jumbotron{
     background-image: url(/assets/Section\ \(1\).jpg); 
     height: 553px;
+
+    display : flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    font-size:3.5rem ;
+    color: white;
+    font-weight: 700;
+    text-align: center;
 }
