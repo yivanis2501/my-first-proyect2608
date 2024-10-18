@@ -60,3 +60,15 @@ header nav ul {
     font-weight: 700;
     text-align: center;
 }
+
+
+/*----------------tarjetas-------------*/
+.card {
+    background-color:#F2F2F2;
+}
+
+.card__contenedor__titulo {
+     font-size: 24px;
+
+}
+
