@@ -1,3 +1,3 @@
-# my-first-proyect2608
+first proyect instituto
 
 primer proyecto instituto alfa
