@@ -1,31 +1,34 @@
 * {
-  font-size: 1rem ; 
-  font-weight: 400;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin: unset;
-padding: unset;
-border: unset;
-outline: unset;
-list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
+    list-style: none;
 }
+
 a {
     color: black;
     text-decoration: none;
     box-sizing: border-box;
 
 }
+
 @font-face {
     font-family: tipografia;
     src: url(/assets/Poppins-Regular.ttf);
-    
+
 }
+
 /*-------Header-----------*/
-header nav{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 12px 60px;
-} 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+}
 
 header nav ul {
     display: flex;
@@ -43,13 +46,14 @@ header nav ul {
     color: white;
 
 }
+
 /*----------------jumbotron---------------*/
 
-.jumbotron{
-    background-image: url(/assets/Section\ \(1\).jpg); 
+.jumbotron {
+    background-image: url(/assets/Section\ \(1\).jpg);
     height: 553px;
 
-    display : flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -59,7 +63,7 @@ header nav ul {
 }
 
 .jumbotron h1 {
-    font-size:3.5rem ;
+    font-size: 3.5rem;
     color: white;
     font-weight: 700;
     text-align: center;
@@ -68,26 +72,136 @@ header nav ul {
 
 /*----------------tarjetas-------------*/
 .card {
-    background-color:#F2F2F2;
+    background-color: #f4f5;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.section__card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: grid;
+    grid-gap: 15px 5px;
+    flex-wrap: wrap;
+    width: 100%;
+    object-fit: cover;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.card_img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .card__contenedor__titulo {
-     font-size: 24px;
-
-}
-.card_imagen {
-    width: 100%;
-    height: 300%;
-    object-fit:cover;
+    font-size: 24px;
+    font-weight: 600;
+    color: #93435E;
+    justify-items: center;
+    align-items: center;
 }
 
-.section-card {
-    display:flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.registro_sesion {
+    background-image: url(/assets/Section.jpg);
+    height: 819px;
+
+    justify-content: left;
+    align-items: start;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.section-card {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+.registro_sesion_idioma {
+    justify-content: left;
+    align-items: start;
+    padding: 70px;
 }
- 
+
+.registro_sesion_idioma_iniciar {
+    background-color: #BD114B;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 32px;
+    border: solid 2px trans;
+}
+
+.informacion {
+    padding: 120px;
+}
+
+.informacion_2 {
+    color: white;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.informacion_3 {
+    color: white;
+    font-size: 24px;
+    padding: 0px 100px;
+}
+
+.comienzo {
+    padding: 0px 120px;
+}
+
+.comienzo_2 {
+    color: white;
+    font-size: 24px;
+    padding: 0px 100px;
+}
+
+.comienzo_3 {
+    background-color: white;
+    border-radius: 12px;
+    color: #666666;
+    font-size: 1rem;
+    padding: 12px 150px;
+    border: solid 2px trans;
+}
+
+.comienzo_button {
+    background-color: #BD114B;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 60px;
+    border: solid 2px trans;
+}
+
+.comienzo_a {
+    padding: 5px 65px;
+}
+
+.footer {
+    background-color: #BE5C83;
+}
+
+.footer_1 {
+    padding: 15px 30px;
+    display: flex;
+    gap: 24px;
+}
+
+.email {
+    color: #D4D5D9;
+    font-size: 10px;
+}
+
+.correo {
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
+
